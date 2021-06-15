@@ -1,0 +1,24 @@
+{
+    "name": "Remote control",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit_IR": "github:lzty634158/tinybit_ir#676c4370c7cd9b5bbff752a5989d5f76e6a0c085",
+        "Tinybit": "github:lzty634158/tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
